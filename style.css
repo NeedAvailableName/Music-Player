@@ -43,7 +43,7 @@
 
   .dashboard {
     padding: 16px 16px 14px;
-    background-color: #f4d6fa;
+    background-color: #f4e4f7;
     position: fixed;
     top: 0;
     width: 100%;
@@ -146,7 +146,7 @@
   .playlist {
     margin-top: 408px;
     padding: 12px;
-    background-color: #f4d6fa;
+    background-color: #f4e4f7;
   }
   
   .song {
