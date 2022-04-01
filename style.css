@@ -42,7 +42,8 @@
   }
 
   .dashboard {
-    padding: 16px 16px 14px;
+    padding-left: 14px;
+    padding-right: 14px;
     background-color: #f4e4f7;
     position: fixed;
     top: 0;
@@ -72,6 +73,7 @@
     display: flex;
     margin: auto;
     width: 200px;
+    padding-bottom: 10px;
   }
   
   .cd-thumb {
@@ -81,6 +83,19 @@
     background-color: #333;
     background-size: cover;
     margin: auto;
+  }
+
+  .volume {
+    margin: auto;
+    width: 200px;
+  }
+  #setVolume {
+    width: 100%;
+    margin: auto;
+    height: 5px;
+  }
+  #setVolume:hover {
+    cursor: pointer;
   }
   
   /* CONTROL */
@@ -119,8 +134,8 @@
   
   .progress {
     width: 100%;
-    -webkit-appearance: none;
-    height: 6px;
+    /*-webkit-appearance: none;*/
+    height: 8px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
@@ -130,7 +145,7 @@
 
   .progress:hover {
     cursor: pointer;
-    height: 8px;
+    height: 12px;
   }
   
   .progress::-webkit-slider-thumb {
